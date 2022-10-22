@@ -14,19 +14,7 @@ if(isset($_POST["action"])){
 
 // REGISTER
 function register(){
-  global $conn;
-
-//   $username = "";
-// // pemeriksaan menggunakan fungsi isset()
-// $username = isset($_POST['username']) ? $_POST['username'] : '';
-// // pemeriksaan menggunakan fungsi empty()
-// $username = !empty($_POST['username']) ? $_POST['username'] : '';
-//         $password = "";
-// // pemeriksaan menggunakan fungsi isset()
-// $password = isset($_POST['password']) ? $_POST['password'] : '';
-// // pemeriksaan menggunakan fungsi empty()
-// $password = !empty($_POST['password']) ? $_POST['password'] : '';
-  
+  global $conn;  
   $id = mt_rand(10000, 100000);
   $name = $_POST["name"];
   $username = $_POST["username"];

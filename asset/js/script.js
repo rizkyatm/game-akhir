@@ -46,11 +46,12 @@ function submitDataLog(){
         data: data, 
         success:function(response){ 
           console.log(response)
-          var nama = document.getElementById('username').value ;
+          var nama2 = document.getElementById('usernamelog').value ;
           if(response == "Login Successful"){ 
             Swal.fire({ 
               icon : "success", 
-              title : "Hello "+ nama + " Selamat bermain", 
+              title : response,
+              text: "Welcome back, " + nama2, 
               timer : 5000, 
               showCancelButton: false, 
             showConfirmButton: false 
