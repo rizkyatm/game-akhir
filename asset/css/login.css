@@ -1,0 +1,173 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'pixel', sans-serif;
+}
+ 
+::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    background-image: url(https://wallpaperaccess.com/full/5785159.png);
+    background-size: cover;
+    overflow:none;
+}
+
+.judul{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(42, 108, 228);
+}
+
+.login{
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    padding: 50px;
+    margin: 95px 140px;
+    border-radius: 10px;
+}
+
+.login input{
+    width: 99%;
+    margin-bottom: 20px;
+    margin-top: 2px;
+    height:30px;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 2px;
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+.input-top{
+   margin-top: 30px;
+}
+.login label{
+    font-size: 20px;
+}
+
+.login button{
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color:rgb(42, 108, 228);
+    color: white;
+}
+hr{
+ width: 50% ;
+ background-color: black;
+ border: none;
+ height: 0.5px;
+}
+
+.garis{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.garis p{
+    margin: 5px;
+}
+
+.kelog{
+    text-align: center;
+    width: 95%;
+    padding: 10px;
+    border:none;
+    border-radius: 5px; 
+    font-weight: bold;
+    background-color:red;
+    
+}
+
+.kelog a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+
+/* regis */
+.register{
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    padding: 50px;
+    margin: 130px 140px;
+    border-radius: 10px;
+}
+
+.register input{
+    width: 99%;
+    margin-bottom: 20px;
+    margin-top: 2px;
+    height:30px;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 2px;
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+.inputDua-topDua{
+   margin-top: 30px;
+}
+.register label{
+    font-size: 20px;
+}
+
+.register button{
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color:rgb(42, 108, 228);
+    color: white;
+}
+hr{
+ width: 50% ;
+ background-color: black;
+ border: none;
+ height: 0.5px;
+}
+
+.garis{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.garis p{
+    margin: 5px;
+}
+
+.kelog{
+    text-align: center;
+    width: 95%;
+    padding: 10px;
+    border:none;
+    border-radius: 5px; 
+    font-weight: bold;
+    background-color:red;
+    
+}
+
+.kelog a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+.container{
+    display: none;
+}
