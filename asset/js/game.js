@@ -29,7 +29,7 @@ function startGame() {
     document.getElementById('try').style.display="none"
     document.getElementById('exit').style.display="none"
     myGamePiece = new component(30, 30, color.value, 10, 120);
-    myScore = new component("32px", "Consolas", "white", 680, 30, "text");
+    myScore = new component("32px", "Consolas", "white", 780, 30, "text");
     nick.style.color = color.value
     myGameArea.start();
    
@@ -136,8 +136,8 @@ function updateGameArea() {
         minGap = 50;
         maxGap = 200;
         gap = Math.floor(Math.random()*(maxGap-minGap+1)+minGap);
-        myObstacles.push(new component(30, height, "#F24B59", x, 0));
-        myObstacles.push(new component(30, x - height - gap, "#F24B59", x, height + gap));
+        myObstacles.push(new component(30, height, "#F0D81D", x, 0));
+        myObstacles.push(new component(30, x - height - gap, "#F0D81D", x, height + gap));
     }
     for (i = 0; i < myObstacles.length; i += 1) {
         myObstacles[i].speedX = -1;
